@@ -1,0 +1,2 @@
+
+SHA2-256(plaintext.txt)= b414715f370c61c1a5c98cf6f89c3db4d0bcdda5afc02c659302d860bd366b0c
