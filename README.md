@@ -1,4 +1,4 @@
-# 🔐 Secure Client-Server Communication
+# Secure Client-Server Communication
 
 This project demonstrates a **secure cryptographic communication system** designed to protect message integrity and confidentiality in the presence of potential cyberattacks — particularly **message tampering by malicious third parties**.
 
@@ -6,9 +6,8 @@ This project demonstrates a **secure cryptographic communication system** design
 
 ## 🚀 Overview
 
-The communication protocol begins with the **receiver** sending a secure symmetric key to the **sender**. Using this key, the sender encrypts the message with the **AES (Advanced Encryption Standard)** algorithm and transmits the ciphertext to the receiver.
+The communication protocol begins with the **receiver** sending a secure symmetric key to the **sender**. Using this key, the sender encrypts the message with the **AES (Advanced Encryption Standard)** algorithm and transmits the ciphertext to the receiver. However, the system is designed to handle a more dangerous scenario:  
 
-However, the system is designed to handle a more dangerous scenario:  
 An **attacker** may compromise the receiver’s system and inject a **modified ciphertext**, attempting to trick the receiver with a forged message.
 
 To mitigate this, our system uses a **cryptographic hash authentication mechanism** that ensures the **authenticity and integrity** of the message, even in adversarial conditions.
@@ -38,7 +37,7 @@ To mitigate this, our system uses a **cryptographic hash authentication mechanis
 
 ---
 
-## 📈 Workflow Diagram (optional)
+## 📈 Workflow Diagram 
 
 The following diagram illustrates the secure communication protocol involving sender, receiver, and potential attacker. It visually represents how message hashes and encrypted messages flow and how authenticity is verified:
 
