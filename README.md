@@ -41,7 +41,7 @@ To mitigate this, our system uses a **cryptographic hash authentication mechanis
 
 The following diagram illustrates the secure communication protocol involving sender, receiver, and potential attacker. It visually represents how message hashes and encrypted messages flow and how authenticity is verified:
 
-![Communication Diagram](diagram.png)
+![Communication Diagram](images/diagram.png)
 
 - `c1 = E(K1, m)`: Encrypted message using key `K1`
 - `c2 = E(K1, h)`: Encrypted hash `h` where `h = H(m)`
