@@ -29,7 +29,7 @@ To mitigate this, our system uses a **cryptographic hash authentication mechanis
 
 ## 🔧 Technologies Used
 
-- C++
+- C,C++
 - AES from `pycryptodome` or similar crypto library
 - SHA-256 for hashing
 - Sockets for client-server communication
