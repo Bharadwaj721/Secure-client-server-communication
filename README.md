@@ -60,4 +60,4 @@ I'd be happy to discuss, collaborate, or just hear your thoughts!
 
 ## License
 
-This project is licensed under the **MIT License** — see the `LICENSE` file for full details.
+This project is licensed under the [MIT License](./LICENSE).
